@@ -1,0 +1,83 @@
+
+.imagethumbnail{
+    width: 100%;
+    height: 264.46px;
+    margin-bottom: 6px;
+}
+.viedoo{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.iconimage{
+    width: 40px;
+    height: 40px; 
+    border-radius: 50px;  
+}
+.viedo{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.ggthumbnail{
+    width:100%;
+    height: 264.46px;
+    margin-bottom: 6px;
+}
+p{
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.die{
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.fio{
+    font-size: 12px;
+}
+.hitler{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.math{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 40px;  
+}
+.viedo-time{
+    position: absolute;
+    background-color: black;
+    color:white;
+    font-family: Roboto;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: small; 
+    right:8px;
+    bottom:14px;
+
+}
+.thumbnail{
+    position: relative;
+}
+.notifications{
+    position: relative;
+}
+.ww{
+    position: absolute;
+    background-color: red;
+    color: white;
+    top:0;
+    right:12px;
+    border-radius: 3px;
+    z-index: 50;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 12px;
+
+}
