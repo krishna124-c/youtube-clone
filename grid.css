@@ -1,0 +1,64 @@
+.container {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.search {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.thumbnail {
+    max-width: 100%;
+    margin: 0 auto 6px;
+}
+.imagethumbnail, .ggthumbnail {
+    width: 100%;
+    margin-bottom: 6px;
+    border-radius: 4px;
+}
+.viedoo, .hitler {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
+}
+.iconimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.viedo {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.channel-name {
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: #555;
+}
+.video-meta {
+    font-size: 12px;
+    color: #888;
+}
+.ggg {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+p {
+    margin: 0;
+}
